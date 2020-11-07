@@ -14,6 +14,7 @@ export const transformer = options => ({
     const opts = {
       ec: '${options.eventCategory}',
       ea: name,
+      dh: document.location.hostname,
       el: id,
       ev: parseInt(delta),
       dp: fullPath,
@@ -55,7 +56,7 @@ export const transformer = options => ({
       onError(err)
     }
   }
-  webVitals(window.location.pathname + window.location.search)
+  webVitals(document.location.pathname + document.location.search)
 </script></body>`)
   }
 })
