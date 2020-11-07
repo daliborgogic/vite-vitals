@@ -9,5 +9,6 @@
   "main": "index.js",
   "bugs": "https://github.com/daliborgogic/vite-vitals/issues",
   "repository": "daliborgogic/vite-vitals",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
