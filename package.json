@@ -1,0 +1,13 @@
+{
+  "name": "vite-vitals",
+  "version": "1.0.0",
+  "description": "Extend Vite with ability to send Core Web Vitals to Google Analytics.",
+  "keywords": [
+    "vite"
+  ],
+  "author": "Dalibor Gogic <mail@daliborgogic.com>",
+  "main": "index.js",
+  "bugs": "https://github.com/daliborgogic/vite-vitals/issues",
+  "repository": "daliborgogic/vite-vitals",
+  "license": "MIT"
+}
