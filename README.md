@@ -25,3 +25,7 @@ export default {
   })]
 }
 ```
+
+## ToDo
+
+- [ ] detect if `router` is used
