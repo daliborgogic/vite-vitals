@@ -1,6 +1,6 @@
 {
   "name": "vite-vitals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extend Vite with ability to send Core Web Vitals to Google Analytics.",
   "keywords": [
     "vite"
