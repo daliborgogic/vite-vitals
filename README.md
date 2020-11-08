@@ -17,7 +17,7 @@ import vitals from 'vite-vitals'
 export default {
   plugins:[vitals({
     // Tracking ID (required) { string }
-    trackingID: 'UA-29874917-4',
+    trackingID: 'UA-XXXXXXXX-X',
     // // Event Category (optional) { string }
     eventCategory: 'Vite Vitals',
     // Debug (optional) { boolean }

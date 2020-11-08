@@ -12,7 +12,7 @@ export const transformer = options => ({
   function sendToAnalytics (fullPath, metric) {
     const { name, delta, id, entries } = metric
     const opts = {
-      ec: '${options.eventCategory}',
+      ec: '${options.eventCategory || 'Vite Vitals'}',
       ea: name,
       dh: document.location.hostname,
       el: id,
